@@ -1,4 +1,4 @@
-# güeder
+# tyempo
 
 ## Problem/Problema :exclamation:
 
@@ -22,7 +22,7 @@ This MVP application will itself consist of the following components in its most
 
 - _Bonus track_ a Telegram to get or push updates to the dashboard.
 
-## Tools
+## Tools :wrench:
 
 - Programming language: Python 3.8
 - APIs to consume: AEMET weather REST API and Notion API (through the unofficial SDK [notion-py](<https://github.com/jamalex/notion-py>))
@@ -31,10 +31,11 @@ This MVP application will itself consist of the following components in its most
     - Logging (using the builtin `logging` module though `structlog` can be an alternative given time)
     - 12 factor principles, including configuration separation using 1) environment variables outside source control and eventually, time permitting `etcd` remote config
     - API docs
+- Additional tooling: We'd like to use [FastAPI](<https://fastapi.tiangolo.com/>) to implement a REST interface for our application's commmands.
 
 ## Authors
 
-[Cristóbal Contreras Rubio](@crisconru)
+[Cristóbal Contreras Rubio](<https://github.com/crisconru>)
 
-[Jose M Rivera-Rubio](@jmrr)
+[Jose M Rivera-Rubio](<https://github.com/jmrr>)
 
