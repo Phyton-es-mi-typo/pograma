@@ -2,7 +2,7 @@
 name = "tyempo"
 version = "0.1.0"
 description = "A weather information provider for Notion dashboards"
-authors = ["Cristobal Contreras, Jose Rivera <josemrivera@gmail.com>"]
+authors = ["Cristobal Contreras <crisconru@gmail.com>, Jose Rivera <josemrivera@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
