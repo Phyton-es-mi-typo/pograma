@@ -1,0 +1,2 @@
+class DashboardException(Exception):
+    pass
