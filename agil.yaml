@@ -2,6 +2,10 @@ personas:
   - Jesus Placeja
   - Angela Armstrong
 
+lenguaje: "python >=3.8"
+
+taskfile: "maskfile.md"
+
 excepciones:
   - app/notion/errors.py
   - app/weather/errors.py
