@@ -1,3 +1,7 @@
 personas:
   - Jesus Placeja
   - Angela Armstrong
+
+excepciones:
+  - app/notion/errors.py
+  - app/weather/errors.py
