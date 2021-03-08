@@ -33,6 +33,7 @@ This MVP application will itself consist of the following services in its most s
     - Logging (using the builtin `logging` module though `structlog` can be an alternative given time)
     - 12 factor principles, including configuration separation using 1) environment variables outside source control and eventually, time permitting `etcd` remote config
     - API docs
+    - [`mask`](<https://github.com/jakedeichert/mask>)
 
 - Configuration management/infrastructure layer: TBD
 
