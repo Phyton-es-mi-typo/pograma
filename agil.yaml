@@ -5,3 +5,6 @@ personas:
 excepciones:
   - app/notion/errors.py
   - app/weather/errors.py
+
+linter:
+  - flake8
