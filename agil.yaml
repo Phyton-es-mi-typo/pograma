@@ -13,6 +13,7 @@ linter:
 
 test:
   - tests/conftest.py
+
 aserciones: "@pytest"
 
 testing:

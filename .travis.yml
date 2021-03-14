@@ -1,3 +1,15 @@
-language: minimal
+language: python
 
-script: /bin/true
+python: 3.8
+
+before_install:
+  - pip install poetry
+  - wget https://github.com/jakedeichert/mask/releases/download/v0.10.0/mask-v0.10.0-x86_64-unknown-linux-gnu.zip -O /tmp/mask.zip
+  - unzip /tmp/mask.zip
+  - export PATH=$PATH:$PWD/mask-v0.10.0-x86_64-unknown-linux-gnu/
+
+install:
+  - poetry install
+
+script:
+  - mask test
