@@ -37,6 +37,20 @@ This MVP application will itself consist of the following services in its most s
 
 - Configuration management/infrastructure layer: TBD
 
+## Instrucciones / Instructions
+
+We use Mask as Task Runner, to install it the information is [here](https://github.com/jakedeichert/mask#installation). `Mask` use `maskfile.md` for tasks declaration. But if you execute
+
+```
+maskfile.md test
+```
+
+It doesn't work, you need to execute
+
+```
+mask test
+```
+
 ## Authors
 
 [Cristóbal Contreras Rubio](<https://github.com/crisconru>)

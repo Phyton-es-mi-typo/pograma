@@ -14,3 +14,7 @@ linter:
 test:
   - tests/conftest.py
 aserciones: "@pytest"
+
+testing:
+  - runner: mask
+  - framework: pytest
