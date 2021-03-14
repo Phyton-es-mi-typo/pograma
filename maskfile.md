@@ -17,3 +17,12 @@ This task is to check is everything ok for our linters.
 ~~~sh
 flake8 ./app
 ~~~
+
+
+## test
+
+> Run tests
+
+~~~sh
+poetry run pytest
+~~~
