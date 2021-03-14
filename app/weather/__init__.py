@@ -1,1 +1,1 @@
-from .errors import WeatherException
+import app.weather.errors as ws_errors
