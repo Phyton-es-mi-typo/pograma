@@ -1,13 +1,3 @@
-from fastapi import FastAPI
+from app.dependencies import load_env_variables
 
-from .notion.dashboard import router as notion
-from .weather.weather import router as weather
-
-app = FastAPI()
-app.include_router(notion)
-app.include_router(weather)
-
-
-@app.get('/')
-def hello_world():
-    return {'hello': 'world'}
+load_env_variables()

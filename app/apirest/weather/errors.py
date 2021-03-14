@@ -1,10 +1,10 @@
-class NotionServiceException(Exception):
+class WeatherServiceException(Exception):
     """Internal Exceptions"""
 
     pass
 
 
-class NotionProviderException(Exception):
+class WeatherProviderException(Exception):
     """Generic exceptions for weather provider"""
 
     pass
