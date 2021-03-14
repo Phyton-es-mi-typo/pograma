@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-from .notion.dashboard import router as notion
-from .weather.weather import router as weather
+from .notion.routes import router as notion
+from .weather.routes import router as weather
 
 app = FastAPI()
 app.include_router(notion)
