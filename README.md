@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/Phyton-es-mi-typo/tyempo.svg?branch=main)](https://travis-ci.org/Phyton-es-mi-typo/tyempo)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 # tyempo
 
 ## Problem/Problema -> Epic/Épica :exclamation:
