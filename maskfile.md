@@ -6,7 +6,6 @@
 
 ~~~sh
 poetry run uvicorn app.apirest.apirest:app --reload
->>>>>>> 9d3300ed35688ceb622f0ade1b37250b833b9de0
 ~~~
 
 ## check
