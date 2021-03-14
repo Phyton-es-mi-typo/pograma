@@ -1,3 +1,1 @@
-from .errors import DashboardException
-
-__all__ = ['DashboardException']
+import app.notion.errors as ns_errors

@@ -1,3 +1,5 @@
+lenguaje: "python >=3.8"
+taskfile: "maskfile.md"
 personas:
   - Jesus Placeja
   - Angela Armstrong
