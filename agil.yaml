@@ -17,5 +17,5 @@ test:
 aserciones: "@pytest"
 
 testing:
-  - runner: mask
-  - framework: pytest
+  runner: mask
+  framework: pytest
