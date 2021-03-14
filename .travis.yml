@@ -2,6 +2,10 @@ language: python
 
 python: 3.8
 
+stages:
+  - lint
+  - test
+
 before_install:
   - pip install poetry
   - wget https://github.com/jakedeichert/mask/releases/download/v0.10.0/mask-v0.10.0-x86_64-unknown-linux-gnu.zip -O /tmp/mask.zip
@@ -11,5 +15,12 @@ before_install:
 install:
   - poetry install
 
-script:
-  - mask test
+jobs:
+  include:
+    - stage: lint
+      name: flake8 check
+      script: mask check
+    - stage: test
+      name: unit tests
+      script: mask test
+
