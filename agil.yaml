@@ -10,3 +10,7 @@ excepciones:
 
 linter:
   - flake8
+
+test:
+  - tests/conftest.py
+aserciones: "@pytest"
