@@ -18,7 +18,6 @@ This task is to check is everything ok for our linters.
 flake8 ./app
 ~~~
 
-
 ## test
 
 > Run tests
