@@ -341,7 +341,7 @@ standard = ["websockets (>=8.0.0,<9.0.0)", "watchgod (>=0.6)", "python-dotenv (>
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "8d7720bc7c2d136da220afd212c072bff948957641b9ea1812f976679dda6277"
+content-hash = "fab418985c4a6e4cfb152730276f41aa773594b0b0b5e43850e47b916c602df0"
 
 [metadata.files]
 appdirs = [

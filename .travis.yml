@@ -16,7 +16,7 @@ install:
   - poetry install
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - poetry run bash <(curl -s https://codecov.io/bash)
 
 jobs:
   include:
