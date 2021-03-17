@@ -15,7 +15,7 @@ poetry run uvicorn app.apirest.apirest:app --reload
 This task is to check is everything ok for our linters.
 
 ~~~sh
-flake8 ./app
+poetry run flake8 ./app
 ~~~
 
 ## test

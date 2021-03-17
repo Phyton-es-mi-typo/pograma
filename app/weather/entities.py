@@ -33,7 +33,7 @@ class WeatherProvider(abc.ABC):
 # "Dateador"
 class WeatherService:
     def __init__(self, weather_provider: WeatherProvider):
-        # Dependency injection: WeatherProvider should inherit from abstract class
+        # Dependency injection: WeatherProvider should be anabstract class
         self.weather_provider = weather_provider
 
 
