@@ -19,3 +19,5 @@ aserciones: "@pytest"
 testing:
   - runner: mask
   - framework: pytest
+
+dateador: "app/weather/entities.py"
