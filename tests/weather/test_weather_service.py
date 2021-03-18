@@ -9,3 +9,7 @@ def test_weather_conditions():
         temperature=temperature, pressure=pressure, precipitation=precipitation
     )
     assert weather_conditions.temperature == temperature
+
+
+def test_aemet_client():
+    assert issubclass(entities.AEMETweatherProvider, entities.WeatherProvider)

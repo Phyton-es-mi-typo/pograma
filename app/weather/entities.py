@@ -11,7 +11,7 @@ class WeatherConditions:
         self.precipitation = precipitation
 
 
-class WeatherProvider(abc.ABC):
+class WeatherProvider(metaclass=abc.ABCMeta):
     def __init__(self, api_key):
         self.api_key = api_key
 
@@ -28,6 +28,14 @@ class WeatherProvider(abc.ABC):
             self._get_request_details(**kwargs), self.api_key
         )
         return data
+
+
+class AEMETweatherProvider(WeatherProvider):
+    def _get_request_details(self):
+        pass
+
+    def _get_data(self):
+        pass
 
 
 # "Dateador"
