@@ -61,3 +61,7 @@ mask test
 
 [Jose M Rivera-Rubio](<https://github.com/jmrr>)
 
+## Roadmap
+
+- [x] Finish [curso-tdd milestones](<https://github.com/Phyton-es-mi-typo/tyempo/issues?q=label%3Acurso-tdd>)
+- [ ] Finish [project milestones](<https://github.com/Phyton-es-mi-typo/tyempo/milestones>)
