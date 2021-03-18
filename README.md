@@ -45,14 +45,20 @@ This MVP application will itself consist of the following services in its most s
 
 We use Mask as Task Runner, to install it the information is [here](https://github.com/jakedeichert/mask#installation). `Mask` use `maskfile.md` for tasks declaration. But if you execute
 
-```
+```bash
 maskfile.md test
 ```
 
 It doesn't work, you need to execute
 
-```
+```bash
 mask test
+```
+
+If you also want to add a test coverage report:
+
+```bash
+mask coverage
 ```
 
 ## Authors
