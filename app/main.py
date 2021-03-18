@@ -1,3 +1,4 @@
-from app.dependencies import load_env_variables
+from app import config
 
-load_env_variables()
+if __name__ == "__main__":
+    # do something, if you call me with python -m to load me as a module
