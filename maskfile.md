@@ -26,6 +26,14 @@ poetry run flake8 ./app
 poetry run pytest
 ~~~
 
+## coverage
+
+> Run coverage tests
+
+~~~sh
+poetry run pytest --cov=./
+~~~
+
 ## clean
 
 > Clean the project of cached files, compiled pyc files, etc.
