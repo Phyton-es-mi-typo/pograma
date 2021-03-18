@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/Phyton-es-mi-typo/tyempo.svg?branch=main)](https://travis-ci.org/Phyton-es-mi-typo/tyempo)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![codecov](https://codecov.io/gh/Phyton-es-mi-typo/tyempo/branch/main/graph/badge.svg?token=6ZOR1TI4WY)](https://codecov.io/gh/Phyton-es-mi-typo/tyempo)
 
 # tyempo
 
